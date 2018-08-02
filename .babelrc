@@ -1,0 +1,20 @@
+{
+  "env": {
+    "test": {
+      "plugins": [
+        "istanbul",
+        {
+          "exclude": [
+
+          ],
+          "include": [
+            "src/"
+          ]
+        }
+      ]
+    }
+
+  },
+  "ignore": ["dist/", "coverage/"],
+  "presets": ["env", "stage-2", "react"]
+}
